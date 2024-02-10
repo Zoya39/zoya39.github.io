@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-image: url('../assets/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0e4444;
+  line-height: 12%;
+}
+
+.profile-section {
+  margin-top: 10%;
+}
+
+.portfolio-section {
+  margin-top: 7%;
+}
+
+.profile-section-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #41538f;
+}
+
+.bio-image {
+  margin-top: 5%;
+  width: 150px;
+}
+
+.bio-description {
+  margin-top: 7%;
+  color: #41538f;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.profile-button {
+  color: #41538f;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.profile-button-wrapper {
+  margin-top: 50%;
+  padding-left: 20%;
+}
+
+.profile-button-wrapper-portfolio {
+  margin-top: 5%;
+}
+
+.wrapper-section-1 {
+  margin-top: 7%;
+  min-height: 650px;
+}
+
+.content-title {
+  font-size: 18px;
+  color: #41538f;
+  font-weight: 700;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.about-title {
+  font-size: 18px;
+  color: #41538f;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.content-sub-title {
+  font-size: 16px;
+  color: #41538f;
+  font-weight: 700;
+  margin-top: 8px;
+  text-decoration: underline;
+}
+
+.content {
+  font-size: 15px;
+  color: #41538f;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+.about-content {
+  font-size: 17px;
+  line-height: 28px;
+  color: #41538f;
+  font-weight: normal;
+  padding: 5px;
+}
+
+.indent {
+  margin-left: 30px;
+}
+
+.navbar-light {
+  background-color: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: #1aa7ec !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #454545;
+}
+
+.navbar-brand {
+  font-size: 13px;
+  color: #0e4444;
+}
+
+.section-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #142664;
+}
+
+.project-section {
+  padding-top: 8%;
+}
+
+@media (min-height: 100vh) {
+  .project-section {
+    min-height: 88vh;
+  }
+}
+
+.project-content {
+  font-size: 14px;
+  color: #142664;
+  text-align: justify;
+}
+
+.project-content li {
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+
+.project-content-title {
+  font-size: 16px;
+  color: #142664;
+  font-weight: 500;
+}
+
+.social-content {
+  font-size: 14px;
+  color: #142664;
+  line-height: 1.125em;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.back-button {
+  color: #142664;
+  text-decoration: underline;
+}
+
+.project-section .row {
+  margin-top: 15px;
+}
+
+.display-media {
+  display: none;
+}
+
+.display-web {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .wrapper-section-1 {
+    min-height: 0px;
+    padding: 5%;
+  }
+
+  .title {
+    font-size: 15px;
+    margin: auto;
+  }
+
+  .content {
+    text-align: justify;
+  }
+
+  .bio-image {
+    width: 50%;
+  }
+
+  .display-web {
+    display: none !important;
+  }
+
+  .display-media {
+    display: block !important;
+  }
+
+  .section-title {
+    margin-top: 5%;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+
+  .social-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .profile-button-wrapper {
+    margin-top: 2%;
+    padding-left: 0%;
+  }
+
+  .about-content {
+    padding: 0px;
+    line-height: 20px;
+    font-size: 16px;
+  }
+
+  .display-media {
+    display: block;
+  }
+
+  .display-web {
+    display: none;
+  }
+
+}

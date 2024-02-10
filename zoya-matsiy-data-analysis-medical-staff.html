@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Zoya Matsiy Data Analysis Medical Staff</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+
+    <!-- Cutom Styles -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+
+    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          >ZOYA MATSIY - DATA ANALYST</a
+        >
+      </div>
+    </nav>
+
+    <!-- Sections -->
+    <div class="container">
+      <div class="project-section">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-9">
+            <h1 class="section-title">
+              Preparing for Influenza Season - The medical staffing agency analytics
+            </h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <p class="project-content-title">OVERVIEW</p>
+          </div>
+          <div class="col-md-9">
+            <p class="project-content">
+              The analysis is created for the medical staffing agency that
+              provides temporary staff to hospitals and clinics. The project
+              aimed to proactively plan staffing needs for the upcoming
+              influenza season across the United States. This involved analyzing
+              historical data related to influenza and staffing requirements.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <p class="project-content-title">PROCESSING</p>
+          </div>
+          <div class="col-md-9">
+            <p class="project-content">
+              The analysis encompassed formulating a hypothesis based on
+              conducted research indicating a higher incidence of
+              influenza-related deaths among adults aged 65 and above.
+            </p>
+            <p class="project-content">
+              The process also involved conducting a descriptive analysis to
+              evaluate the correlation between influenza deaths and the size of
+              the population age groups. The data limitations were considered,
+              and the spread of the data was evaluated in conjunction with the
+              t-test to compare the number of deaths among different age groups.
+              Furthermore, the need for additional information on vulnerability
+              and vaccination rates was identified.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <p class="project-content-title">INSIGHTS</p>
+          </div>
+          <div class="col-md-9">
+            <p class="project-content">
+              <b>Insight by statistical analysis:</b>
+            </p>
+            <p class="project-content">
+              The data on influenza Deaths don’t confirm the assumption about a
+              higher number of Deaths in the age group +80 : shows linear
+              progression in Deaths/Population, and the level of outliners
+              occurrence is mostly near the allowed level of 5%.
+            </p>
+            <img
+              class="project-image"
+              src="assets/images/preparing-for-influenza-season-1.png"
+              alt=""
+            />
+            <br><br>
+            <p class="project-content">
+              <b>Insights by statistical analysis:</b>
+            </p>
+            <p class="project-content">
+              The Influenza Deaths have a very strong (94%) correlation to the
+              population age group size. That is, the data confirm that
+              influenza-related Deaths are the age-dependent parameter in groups
+              over 65.
+            </p>
+            <img
+              class="project-image"
+              src="assets/images/preparing-for-influenza-season-2.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <p class="project-content-title">RECOMMRNDATIONS</p>
+          </div>
+          <div class="col-md-9">
+            <p class="project-content">
+              <b>Evidenced pattern and recommendations:</b>
+            </p>
+            <p class="project-content">
+              Influenza infections are associated with thousands of deaths every
+              year in the United States, with the majority of deaths from
+              seasonal influenza occurring among adults aged ≥65 years. Other
+              research gives the mean age at death, as 72.7 years.
+            </p>
+            <p class="project-content">
+              My research confirms the first assumption. Therefore, the
+              recommendation is to focus on the +65 age group of the population
+              and to plan the additional staff for regions with a larger group
+              of people 65+ because the corresponding influenza mortality will
+              be higher.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <p class="project-content-title">COMPLETE DATA ANALYSIS</p>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-12 col-md-5 project-content">
+                Please, see final report in Github for more information
+              </div>
+              <div class="col-6 col-md-2">
+                <a
+                  class="social-content"
+                  href="https://github.com/Zoya39/Medical-Staffing-Agency" target="_blank"
+                  >GitHub</a
+                >
+                <a
+                  href="https://github.com/Zoya39/Medical-Staffing-Agency" target="_blank"
+                  ><img
+                    class="social-icon"
+                    src="assets/images/github-logo.png"
+                    alt=""
+                /></a>
+              </div>
+          </div>
+        </div>
+
+          <div class="col-md-12 mt-2">
+            <p class="project-content-title">
+              <a class="back-button" href="./zoya-matsiy-data-analyst-list-of-projects.html">BACK TO PROJECT LIST</a>
+            </p>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
