@@ -103,6 +103,7 @@ body {
   color: #41538f;
   font-weight: normal;
   padding: 5px;
+  text-align: justify;
 }
 
 .indent {
@@ -238,6 +239,7 @@ body {
     padding: 0px;
     line-height: 20px;
     font-size: 16px;
+    text-align: justify;
   }
 
   .display-media {
